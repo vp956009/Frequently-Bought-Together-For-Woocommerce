@@ -1,0 +1,215 @@
+.fbtfw_main {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+.fbtfw_main a {
+    text-decoration: none;
+    border: none;
+    box-shadow: none !important;
+}
+.fbtfw_main ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    float: left;
+}
+.fbtfw_price_old {
+    color: #9d9595;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+.fbtfw_price_new {
+    color: #4caf50;
+    font-weight: 600;
+}
+.dss{
+    pointer-events: none;
+    outline: none;
+    background: #777777!important;
+    color: #ffffff!important;
+}
+.fbtfw_cart_div {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    margin: 10px 0px;
+}
+.fbtfw_price {
+    width: 100%;
+    float: left;
+}
+.fbtfw_price_label {
+    display: inline-block;
+    float: left;
+}
+input.occp_add_cart_button.button {
+    color: #fff;
+    background-color: #2196F3;
+    font-size: 15px;
+}
+
+
+/******************layout 1****************/
+.layout1 h3 {
+    font-size: 34px;
+    margin: 15px 0;
+}
+.layout1 .fbtfw_img_div {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    margin: 0 auto;
+}
+.layout1 .fbtfw_div input[type="checkbox"] {
+    width: 1em;
+}
+.layout1 .fbtfw_product_image {
+    width: 70px;
+    flex: 0 0 70px;
+}
+.layout1 .fbtfw_product_image img {
+    width: 70px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.layout1 .fbtfw_product_title {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    flex-grow: 1;
+}
+.layout1 .fbtfw_product_price {
+    font-size: 16px;
+    width: 200px;
+    flex: 0 0 200px;
+    max-width: 200px;
+    text-align: right;
+}
+.layout1 .fbtfw_each_item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dotted #e5e5e5;
+}
+.layout1 .fbtfw_each_item > div {
+    padding: 10px 10px 10px 0;
+}
+/*************end layout 1***************/
+
+
+/*********layout 2 & shortcode***********/
+.layout2 h3 {
+    font-size: 34px;
+    margin: 15px 0;
+}
+.fbtfw_main.layout2 {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    margin-bottom: 30px;
+}
+table.fbtfw_product_images {
+    width: auto;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: initial;
+}
+.layout2 .fbtfw_product_images tr td {
+    border: none;
+    position: relative;
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+.layout2 .fbtfw_product_images td.fbtfw_img_plus {
+    width: 20px;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.layout2 .fbtfw_product_images td.fbtfw_img img {
+    background-color: #FFF;
+    padding: 5px;
+    margin: 0 auto;
+    width: 130px;
+    height: auto;
+}
+.layout2 .fbtfw_img_div {
+    position: relative;
+    margin: 0 auto;
+}
+.layout2 .fbtfw_cart_div {
+    width: auto;
+    margin: 0 0 0 25px;
+}
+.layout2 .fbtfw_price {
+    margin-bottom: 15px;
+}
+.layout2.fbtfw_main ul {
+    width: 100%;
+}
+.fbtfw_each_item {
+    margin: 5px 0;
+}
+.layout2 .fbtfw_ul input {
+    width: 1em;
+}
+.layout2 .fbtfw_badge {
+    text-transform: uppercase;
+    position: absolute;
+    top: -16px;
+    right: -8px;
+    z-index: 9999999;
+    border-radius: 100%;
+    padding: 2px 2px;
+    border: 2px solid #eb1818;
+}
+.layout2 .fbtfw_badge > span {
+    color: #fff;
+    background-color: #eb1818;
+    width: 35px;
+    vertical-align: middle;
+    height: 35px;
+    line-height: 10px;
+    margin-top: 0px;
+    font-size: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    padding-top: 6px;
+}
+.layout2 .fbtfw_badge p {
+    margin: 0px 0px 2px 0px;
+}
+.layout2 table.fbtfw_product_images tr td:first-child {
+    padding-left: 0px!important;
+}
+/*******end layout 2 & shortcode*******/
+
+
+
+@media only screen and (max-width: 767px) { 
+    /******************layout 1****************/
+    .layout1 .fbtfw_each_item {
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .layout1 .fbtfw_each_item > div {
+        padding: 5px 0 !important;
+        width: auto !important;
+        flex-basis: 0 !important;
+        max-width: 100% !important;
+    }
+    .layout1 .fbtfw_product_image img {
+        display: block;
+        margin: 0 auto;
+        width: 80px;
+    }
+    /******************end layout 1****************/
+}

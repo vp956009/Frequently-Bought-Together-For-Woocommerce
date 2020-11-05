@@ -1,0 +1,49 @@
+.occp_sortable .occp_select_back {
+    padding: 5px 20px 5px 162px!important
+}
+.occp_sortable ul#sortable li {
+    padding: 3px;
+    width: 100%;
+    display: inline-block!important;
+    vertical-align: middle;
+    position: relative;
+    text-transform: capitalize;
+}
+.occp_sortable .product-attributes-drop{
+	padding: 5px 5px 5px 15px!important;
+    float: left;
+    vertical-align: middle;
+}
+.occp_sortable ul#sortable li:hover {
+    cursor: move;
+}
+.occp_sortable .occp-draggble-icon {
+    background-image: url(../images/icon.png);
+    background-position: -132px -49px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    left: 5px;
+    top: 10px;
+}
+.occp_sortable .occp_qty_box {
+    float: right;
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+}
+.occp_sortable .occp_select_back ul li input[type="number"] {
+    width: 40%;
+    display: inline-block;
+}
+.occp_sortable .occp_select_back ul li select {
+    width: 60%;
+}
+.occp_sortable {
+    margin: 0px 15px;
+}
+.fbtfw_rating_div{
+    width: 10%;
+    vertical-align: middle;
+}
